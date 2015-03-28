@@ -11,7 +11,7 @@ public class PreferenceActivityCompat extends android.preference.PreferenceActiv
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.preferences);
+        addPreferencesFromResource(R.xml.preferences_compat);
     }
 
     @Override
